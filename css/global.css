@@ -1,57 +1,71 @@
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
+    font-style: normal;
     font-weight: bold;
 }
 
-* { 
+* 
+{ 
     font-family: 'My Lucida', Console;
 }
 
-body {
+body 
+{
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
 }
 
-a {
+a 
+{
     color: black;
     text-decoration: none;
 }
 
-.wrapper {
-    padding: 25px 0;
+.wrapper 
+{
+    padding: 25px;
+    margin-top: 25px;
 }
 
-body > header {
+body > header 
+{
     margin-bottom: 20px;
     background: white;
     box-shadow: 1px 0px 8px rgb(200, 200, 200);
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
-header .logo-search form  {
+header .logo-search form  
+{
     width: 50%;
 }
 
-header .user {
+header .user 
+{
     float: right;
 }
 
-header .user a {
+header .user a 
+{
     font-size: 13px;
     color: #89949b;
     padding-top: 5px;
 }
 
-main h2 {
+main h2 
+{
     margin-top: 4px;
 }
 
 
-main article {
+main article 
+{
     display: inline-block;
 }
 
-h3 {
+h3 
+{
     color: #b8c3c9;
     text-transform: uppercase;
     font-size: 11px;
@@ -59,48 +73,58 @@ h3 {
     margin-bottom: 10px;
 }
 
-nav ul li a { 
+nav ul li a 
+{ 
     font-size: 14px;
     font-weight: normal;
     color: #828c92;
 }
 
-nav ul li a:hover {
+nav ul li a:hover 
+{
     color: #fe7f19;
 }
 
-nav ul li {
+nav ul li 
+{
     margin-top: 5px;
 }
 
-main header aside img {
+main header aside img 
+{
     border: 1px solid #dadada;
     border-radius: 50%;
     box-shadow: 0 0 5px #cecece;
 }
 
-nav ul li:last-child {
+nav ul li:last-child 
+{
     margin-bottom: 30px;
 }
 
-h1 {
+h1 
+{
     color: #4b5c66;
     font-size: 24px;
     font-weight: normal;
     margin: 0 0 8px 0;
 }
 
-.name p { 
+.name p 
+{ 
+
     color: #a0aab1;
     font-size: 12px;
 }
 
-.name p img { 
+.name p img 
+{ 
     margin-left: 12px;
 }
 
 
-.stats-links {
+.stats-links 
+{
     color: #4b5c66;
     font-size: 12px;
     padding: 15px 0px 10px 0px;
@@ -108,31 +132,37 @@ h1 {
     margin-bottom: 20px;
 }
 
-.stats-links span, .stats-links a {
+.stats-links span, .stats-links a 
+{
     margin-right: 20px;
 }
 
-.stats-links a:last-child {
+.stats-links a:last-child
+
     margin-right: 0;
 }
 
-.stats-links a {
+.stats-links a 
+{
     font-size: 12px;
     font-weight: normal;
     color: #4b5c66;
 }
 
-h2 {
+h2 
+{
     font-size: 20px;
     font-weight: normal;
     color: #4b5c66;
 }
 
-header form {
+header form 
+{
     width: 100%;
 }
 
-input.search {
+input.search 
+{
     background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
     box-shadow: none;
     height: 28px;
@@ -146,11 +176,13 @@ input.search {
     box-shadow: inset 1px 1px 5px #d5d5d5;
 }
 
-input.submit {
+input.submit 
+{
     display: none;
 }
 
-.station {
+.station 
+{
     font-size: 12px;
     color: #008fd5;
     border-radius: 5px;
@@ -162,49 +194,60 @@ input.submit {
     transition: all 0.4s;
 }
 
-.station:hover {
+.station:hover 
+{
     background-color: #0A90D5;
     color: white;
     background-image: url("../img/icon/station-white.png");
 }
 
 
-#albums article {
+#albums article 
+{
     font-size: 13px;
     color: #89949b;
     margin: 10px 0;
 }
 
-#albums article img {
+#albums article img 
+{
+    position: relative;
+    margin-right: 10px;
     border: 1px solid #cbcbcb;
     transition: all 0.3s;
-    width: 100%;
+    width: 120px;
 }
 
-#albums article img:hover {
+#albums article img:hover 
+{
     box-shadow: 0 0 15px #848484;
     transform: scale(1.1) rotate(-3deg);
 }
 
-#albums article figcaption {
+#albums article figcaption 
+{
+    position: relative;
     color: #4b5c66;
     margin-top: 6px;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
-#albums article .artist, #albums article .count {
+#albums article .artist, #albums article .count 
+{
     margin-top: 4px;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
-#albums .explicit {
+#albums .explicit 
+{
     color: #ff5d5d;
     margin-left: 5px;
 }
 
-nav.browse a, nav.music a {
+nav.browse a, nav.music a 
+{
     padding-left: 20px;
     padding-top: 2px;
 }
@@ -215,7 +258,3 @@ nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
 nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
-
-
-
-
